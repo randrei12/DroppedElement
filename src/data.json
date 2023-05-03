@@ -1,0 +1,131 @@
+[
+    {
+        "name": "Screen1",
+        "type": "screen",
+        "id": "bf9e66dc-61f2-4707-86c1-c643d0665139",
+        "styles": [],
+        "children": [
+            {
+                "name": "asd",
+                "type": "button",
+                "id": "6b1a0dc5-d5c9-490c-ac4e-a58de9cabbaa",
+                "styles": [
+                    {
+                        "name": "content",
+                        "value": "Button",
+                        "unit": "",
+                        "type": "content"
+                    },
+                    {
+                        "name": "fontSize",
+                        "value": 16,
+                        "unit": "px",
+                        "type": "style"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "Text1",
+                "type": "text",
+                "id": "8b83826f-74bd-4ba1-a47a-33c818e1bb7e",
+                "styles": [
+                    {
+                        "name": "content",
+                        "value": "Text",
+                        "unit": "",
+                        "type": "content"
+                    },
+                    {
+                        "name": "fontSize",
+                        "value": 16,
+                        "unit": "px",
+                        "type": "style"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "Group1",
+                "type": "group",
+                "id": "c1c68ee8-1509-4b2b-85d0-7e12149e41fd",
+                "styles": [
+                    {
+                        "name": "width",
+                        "value": 100,
+                        "unit": "%",
+                        "type": "style"
+                    },
+                    {
+                        "name": "height",
+                        "value": 100,
+                        "unit": "%",
+                        "type": "style"
+                    }
+                ],
+                "children": [
+                    {
+                        "name": "Button2asdasd",
+                        "type": "button",
+                        "id": "7af81196-bcbb-453d-a0fb-9acbe35a0696",
+                        "styles": [
+                            {
+                                "name": "content",
+                                "value": "Button",
+                                "unit": "",
+                                "type": "content"
+                            },
+                            {
+                                "name": "fontSize",
+                                "value": 16,
+                                "unit": "px",
+                                "type": "style"
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Group2",
+                "type": "group",
+                "id": "6b54d509-2320-4f7b-9b52-05e291ae713b",
+                "styles": [
+                    {
+                        "name": "width",
+                        "value": 100,
+                        "unit": "%",
+                        "type": "style"
+                    },
+                    {
+                        "name": "height",
+                        "value": 100,
+                        "unit": "%",
+                        "type": "style"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "Text2",
+                "type": "text",
+                "id": "ccade401-a3a5-4264-a79f-37ea059e2b6b",
+                "styles": [
+                    {
+                        "name": "content",
+                        "value": "Text",
+                        "unit": "",
+                        "type": "content"
+                    },
+                    {
+                        "name": "fontSize",
+                        "value": 16,
+                        "unit": "px",
+                        "type": "style"
+                    }
+                ],
+                "children": []
+            }
+        ]
+    }
+]
