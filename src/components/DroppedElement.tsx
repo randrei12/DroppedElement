@@ -1,11 +1,16 @@
+import { useEffect } from "react";
 import config from "../design/configuration";
+import useDesign from "../hooks/useDesign";
 import { IF_SerializedElement } from "../interfaces/DroppedElement";
 
 export default function DroppedElement({ target } : { target: IF_SerializedElement }) {
-    const Tag = config[target.type].html as keyof JSX.IntrinsicElements;
+    const { addElement } = useDesign();
 
-    console.log(target);
+    useEffect(() => {
+        addElement(target);
+    }, []);
     
+    const Tag = config[target.type].html as keyof JSX.IntrinsicElements;
 
     let content: string | number | false = false;
     let styles: { [key: string]: string } = {};
